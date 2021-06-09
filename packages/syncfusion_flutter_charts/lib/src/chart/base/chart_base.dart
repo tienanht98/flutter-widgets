@@ -2294,16 +2294,6 @@ class _ContainerArea extends StatelessWidget {
                       onPanDown: (DragDownDetails details) {
                         _performPanDown(details);
                       },
-                      onVerticalDragUpdate: isUserInteractionEnabled
-                          ? (DragUpdateDetails details) {
-                              _performPanUpdate(details);
-                            }
-                          : null,
-                      onVerticalDragEnd: isUserInteractionEnabled
-                          ? (DragEndDetails details) {
-                              _performPanEnd(details);
-                            }
-                          : null,
                       onHorizontalDragUpdate: isUserInteractionEnabled
                           ? (DragUpdateDetails details) {
                               _performPanUpdate(details);

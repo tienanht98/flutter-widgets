@@ -12,7 +12,6 @@ dependencies:
   intl: ^0.17.0
   vector_math: ^2.1.0
   syncfusion_flutter_core:
-    git: https://github.com/tienanht98/flutter-widgets.git
-    path: packages/syncfusion_flutter_core
+    path: ../packages/syncfusion_flutter_core
 
 flutter:
